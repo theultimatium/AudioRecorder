@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSDate* date;
 // always save in ~/Documents/yyyymmddhhmmss
 @property (readonly, nonatomic) NSString* path;
+@property (readonly, nonatomic) NSURL* url;
 
 @end
 
