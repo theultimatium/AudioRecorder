@@ -11,7 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) NSDate* date;
+// always save in ~/Documents/yyyymmddhhmmss
 
 @end
 
