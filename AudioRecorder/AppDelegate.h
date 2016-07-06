@@ -13,6 +13,7 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) NSDate* date;
 // always save in ~/Documents/yyyymmddhhmmss
+@property (readonly, nonatomic) NSString* path;
 
 @end
 
